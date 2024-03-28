@@ -17,7 +17,7 @@ public class ExercicioTemperatura{
             temperatura = input.nextDouble();
             while (true) {
                 if (temperatura < 3 || temperatura > 10) {
-                    System.out.println("Temperatura inválida! Tente novamente com a temperatura entre 4 e 5.");
+                    System.out.println("Temperatura inválida! Tente novamente com a temperatura entre 4 e 10.");
                     i = i -1;
                     break;
                 } else {
